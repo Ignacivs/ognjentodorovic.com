@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ognjen Todorovic - Technology Enthusiast</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Ognjen Todorovic - Technology Enthusiast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Aug 2022 11:30:28 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing</title>
+      <link>http://localhost:1313/posts/testing-documentation/</link>
+      <pubDate>Sun, 14 Aug 2022 11:30:28 +0200</pubDate>
+      
+      <guid>http://localhost:1313/posts/testing-documentation/</guid>
+      <description>Test wikias are borring Most of the people that I have encountered in the QA sphere of website/app contracting industry have it wrong. They try to write plans and &amp;ldquo;strategies&amp;rdquo; in order to test something that changes all the time. This is especially useless when you are doing automation testing, especially if your client&amp;rsquo;s ideas rotate every sprint. Sure this will make it so you look like you are doing some important work, but what you are truly doing is wasting your time, it would be much better if you studied something with your time, or tried to cook a meal for yourself and contribute less CO2 with your take-away/order by app food.</description>
+      <content>&lt;h1 id=&#34;test-wikias-are-borring&#34;&gt;Test wikias are borring&lt;/h1&gt;
+&lt;p&gt;Most of the people that I have encountered in the QA sphere of website/app contracting industry have it wrong. They try to write plans and &amp;ldquo;strategies&amp;rdquo; in order to test something that changes all the time. This is especially useless when you are doing automation testing, especially if your client&amp;rsquo;s ideas rotate every sprint. Sure this will make it so you look like you are doing some important work, but what you are truly doing is wasting your time, it would be much better if you studied something with your time, or tried to cook a meal for yourself and contribute less CO2 with your take-away/order by app food.&lt;/p&gt;
+&lt;h1 id=&#34;how-do-you-know-what-to-test&#34;&gt;How do you know what to test&lt;/h1&gt;
+&lt;p&gt;You are a QA Engeeer, your job description is to be flexible and abusive to the software that was entrusted to you. If your website was a bulletproof car your duty should be to try your very best to blow it up or ruin it, it is more efficient to potograph the bill of bullets and arnaments you bought, instead of explaining why you used 9mm rounds, after all you are not there to write a book for law students, you are here to do you job. So start doing it and note down the important things, stop writing down everything, stop making excel sheets that look like a grandma from 2000&amp;rsquo;s formated them. Start working and become honest to the people contracting you, earn their respect with honesty and work, instead of making 100 000 characters of useless documentation that no one will go out of their way to read.&lt;/p&gt;
+&lt;h1 id=&#34;what-should-you-document&#34;&gt;What should you document&lt;/h1&gt;
+&lt;p&gt;Not a lot really, you want to tell people what credidentials they use in one file, and just reference it with hyperlinks. Your flows should not try to make wikipedia lenght synopsis, if the test or &amp;ldquo;strategy&amp;rdquo;(stop using this word seriosly) is supposed to test a god-damn search form:&lt;/p&gt;
+&lt;h4 id=&#34;do&#34;&gt;DO&lt;/h4&gt;
+&lt;p&gt;&amp;ldquo;Flow to test the search function on this page -url- &amp;quot;&lt;/p&gt;
+&lt;h4 id=&#34;dont&#34;&gt;DONT&lt;/h4&gt;
+&lt;p&gt;&amp;ldquo;File that explains comprehensive test strategies and approaches that is supposed to test the search function and the feutures it has, the list bellow is what the flow and the text file tests:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Search with Filters&lt;/li&gt;
+&lt;li&gt;Search using holtkeys&lt;/li&gt;
+&lt;li&gt;Search using meta-search feuture&lt;/li&gt;
+&lt;li&gt;etc ..&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The DON&amp;rsquo;T example is useless, it clearly demonstrates a waste of time, you are not writting this to be understood by busness people, and even if you are asked to do that make sure you avoid it. Buisness people have no idea what they are reading, regardless how you put it, so just ignore the request and move on, instead tell them &amp;ldquo;I would prefer not to&amp;rdquo; and move on delivering value and making your face stand-out from everyone else&amp;rsquo;s unefficiecy.&lt;/p&gt;
+&lt;p&gt;When you write flows they should be self-explanatory, make a simple name for the flow and ignore expanding what it does. Include a hyperlink to it&amp;rsquo;s Buisness specification and move on to useful things. Make your steps as simple as posible and use images where words are too long, there is nothing wrong in using screenshoots as step indicators, after all you are not reading instructions from a &amp;ldquo;text-only&amp;rdquo; device nor are you using TTS to have it read to you, you are using your EYES, not some abstract reading tool, so make your flow readable to humans, not machines. Anything that repeats from variables just hyperlink them, and be done with it. Again, make tests fast and easy to understand, speed matters so stop slowing down your colleagues.&lt;/p&gt;
+&lt;p&gt;Automation plans and &amp;ldquo;strategies&amp;rdquo; should be similar, what you need to do is read the spec file, create a task for one part of the spec and start making tests. You will have some n ammount of tests, after you write them and commit a PR have someone read the task, see what you did and tell you if you are missing something. Sure there is a chance you will miss something, and they will miss something, but who cares ? You will catch it eventually, the same error will happen if you keep writing Wikia pages for your flows, so save time and nerves and take action.&lt;/p&gt;
+&lt;p&gt;There is a term from investment that is beneficial for us to understand, it is called&lt;a href=&#34;https://www.investopedia.com/terms/a/analysisparalysis.asp&#34;&gt;Analasys Paralasys&lt;/a&gt;, this is what it means :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Analysis paralysis is an inability to make a decision due to over-thinking a problem. An individual or a group can have too much data. The result is endless wrangling over the upsides and downsides of each option, and an inability to pick one.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As testers we should try our best to avoid getting into this loop of over-thinking, because most things we will test are simple and easy to understand. You are not debugging AI or doing cryptography, you are making a test for the next button, so please do touch some grass.&lt;/p&gt;
+&lt;p&gt;Try your best to be honest, open and communicative. It is much more immportant to be online and &amp;ldquo;idle&amp;rdquo; than to waste time on arcane scriptures. Less is more in this Agile mindset so embrace it. Your time and energy is better served helping colleagues and doing important work, and if that makes you work for 4 hours every day instead of 8 then so be it, don&amp;rsquo;t make up work, do the work that matters.&lt;/p&gt;
+&lt;p&gt;I hope you learned something useful today, have a nice day !&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

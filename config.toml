@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Ognjen Todorovic - Technology Enthusiast"
+theme = "terminal"
+# set theme to full screen width
+fullWidthTheme = true
+[params]
+centerTheme = true

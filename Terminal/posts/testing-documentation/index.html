@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Testing :: Ognjen Todorovic - Technology Enthusiast</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Test wikias are borring Most of the people that I have encountered in the QA sphere of website/app contracting industry have it wrong. They try to write plans and &amp;ldquo;strategies&amp;rdquo; in order to test something that changes all the time. This is especially useless when you are doing automation testing, especially if your client&amp;rsquo;s ideas rotate every sprint. Sure this will make it so you look like you are doing some important work, but what you are truly doing is wasting your time, it would be much better if you studied something with your time, or tried to cook a meal for yourself and contribute less CO2 with your take-away/order by app food." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="http://localhost:1313/posts/testing-documentation/" />
+
+
+
+
+<link rel="stylesheet" href="http://localhost:1313/assets/style.css">
+
+  <link rel="stylesheet" href="assets/%25!s%28%3cnil%3e%29.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="http://localhost:1313/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="http://localhost:1313/img/favicon/orange.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Testing">
+<meta property="og:description" content="Test wikias are borring Most of the people that I have encountered in the QA sphere of website/app contracting industry have it wrong. They try to write plans and &amp;ldquo;strategies&amp;rdquo; in order to test something that changes all the time. This is especially useless when you are doing automation testing, especially if your client&amp;rsquo;s ideas rotate every sprint. Sure this will make it so you look like you are doing some important work, but what you are truly doing is wasting your time, it would be much better if you studied something with your time, or tried to cook a meal for yourself and contribute less CO2 with your take-away/order by app food." />
+<meta property="og:url" content="http://localhost:1313/posts/testing-documentation/" />
+<meta property="og:site_name" content="Ognjen Todorovic - Technology Enthusiast" />
+
+  
+    <meta property="og:image" content="img/favicon/%!s().png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2022-08-14 11:30:28 &#43;0200 CEST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="http://localhost:1313/">
+  <div class="logo">
+    Ognjen Todorović
+  </div>
+</a>
+
+    </div>
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/posts/testing-documentation/">Testing</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2022-08-14
+        
+      </span>
+    
+    
+    
+  </div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="test-wikias-are-borring">Test wikias are borring<a href="#test-wikias-are-borring" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>Most of the people that I have encountered in the QA sphere of website/app contracting industry have it wrong. They try to write plans and &ldquo;strategies&rdquo; in order to test something that changes all the time. This is especially useless when you are doing automation testing, especially if your client&rsquo;s ideas rotate every sprint. Sure this will make it so you look like you are doing some important work, but what you are truly doing is wasting your time, it would be much better if you studied something with your time, or tried to cook a meal for yourself and contribute less CO2 with your take-away/order by app food.</p>
+<h1 id="how-do-you-know-what-to-test">How do you know what to test<a href="#how-do-you-know-what-to-test" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>You are a QA Engeeer, your job description is to be flexible and abusive to the software that was entrusted to you. If your website was a bulletproof car your duty should be to try your very best to blow it up or ruin it, it is more efficient to potograph the bill of bullets and arnaments you bought, instead of explaining why you used 9mm rounds, after all you are not there to write a book for law students, you are here to do you job. So start doing it and note down the important things, stop writing down everything, stop making excel sheets that look like a grandma from 2000&rsquo;s formated them. Start working and become honest to the people contracting you, earn their respect with honesty and work, instead of making 100 000 characters of useless documentation that no one will go out of their way to read.</p>
+<h1 id="what-should-you-document">What should you document<a href="#what-should-you-document" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>Not a lot really, you want to tell people what credidentials they use in one file, and just reference it with hyperlinks. Your flows should not try to make wikipedia lenght synopsis, if the test or &ldquo;strategy&rdquo;(stop using this word seriosly) is supposed to test a god-damn search form:</p>
+<h4 id="do">DO<a href="#do" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<p>&ldquo;Flow to test the search function on this page -url- &quot;</p>
+<h4 id="dont">DONT<a href="#dont" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<p>&ldquo;File that explains comprehensive test strategies and approaches that is supposed to test the search function and the feutures it has, the list bellow is what the flow and the text file tests:</p>
+<ul>
+<li>Search with Filters</li>
+<li>Search using holtkeys</li>
+<li>Search using meta-search feuture</li>
+<li>etc ..</li>
+</ul>
+<p>The DON&rsquo;T example is useless, it clearly demonstrates a waste of time, you are not writting this to be understood by busness people, and even if you are asked to do that make sure you avoid it. Buisness people have no idea what they are reading, regardless how you put it, so just ignore the request and move on, instead tell them &ldquo;I would prefer not to&rdquo; and move on delivering value and making your face stand-out from everyone else&rsquo;s unefficiecy.</p>
+<p>When you write flows they should be self-explanatory, make a simple name for the flow and ignore expanding what it does. Include a hyperlink to it&rsquo;s Buisness specification and move on to useful things. Make your steps as simple as posible and use images where words are too long, there is nothing wrong in using screenshoots as step indicators, after all you are not reading instructions from a &ldquo;text-only&rdquo; device nor are you using TTS to have it read to you, you are using your EYES, not some abstract reading tool, so make your flow readable to humans, not machines. Anything that repeats from variables just hyperlink them, and be done with it. Again, make tests fast and easy to understand, speed matters so stop slowing down your colleagues.</p>
+<p>Automation plans and &ldquo;strategies&rdquo; should be similar, what you need to do is read the spec file, create a task for one part of the spec and start making tests. You will have some n ammount of tests, after you write them and commit a PR have someone read the task, see what you did and tell you if you are missing something. Sure there is a chance you will miss something, and they will miss something, but who cares ? You will catch it eventually, the same error will happen if you keep writing Wikia pages for your flows, so save time and nerves and take action.</p>
+<p>There is a term from investment that is beneficial for us to understand, it is called<a href="https://www.investopedia.com/terms/a/analysisparalysis.asp">Analasys Paralasys</a>, this is what it means :</p>
+<blockquote>
+<p>Analysis paralysis is an inability to make a decision due to over-thinking a problem. An individual or a group can have too much data. The result is endless wrangling over the upsides and downsides of each option, and an inability to pick one.</p>
+</blockquote>
+<p>As testers we should try our best to avoid getting into this loop of over-thinking, because most things we will test are simple and easy to understand. You are not debugging AI or doing cryptography, you are making a test for the next button, so please do touch some grass.</p>
+<p>Try your best to be honest, open and communicative. It is much more immportant to be online and &ldquo;idle&rdquo; than to waste time on arcane scriptures. Less is more in this Agile mindset so embrace it. Your time and energy is better served helping colleagues and doing important work, and if that makes you work for 4 hours every day instead of 8 then so be it, don&rsquo;t make up work, do the work that matters.</p>
+<p>I hope you learned something useful today, have a nice day !</p>
+
+      </div></div>
+
+  
+
+  
+  
+
+  
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2022 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="http://localhost:1313/assets/main.js"></script>
+<script src="http://localhost:1313/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
